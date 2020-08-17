@@ -1,0 +1,8 @@
+<div class="hoverover">
+  <h3>{{ item.overview }}</h3>
+  <h3>Language:{{ item.original_language }}</h3>
+  <label for="file">rating:</label>
+  <progress id="file" value="{{ item.vote_average }}" max="10">{{ item.vote_average * 10 }}
+  </progress>
+  <h3>{{ item.vote_average * 10 }}</h3>
+</div>
